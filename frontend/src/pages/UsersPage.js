@@ -1,12 +1,13 @@
 import React from 'react'
 import UserList from '../features/user/UserList'
+import greg from './gregNoethlich.PNG'
 
 const UsersPage = () => {
     const USERS = [
         {
-            id: '1',
+            id: 'u1',
             name: 'Greg N',
-            image: 'https://www.pexels.com/photo/gray-and-brown-mountain-417173',
+            image: greg,
             placeCount: '3'
         }
     ]

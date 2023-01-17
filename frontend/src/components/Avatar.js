@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Avatar = () => {
+export const Avatar = (props) => {
   return (
     <div className={`avatar ${props.className}`} style={props.style}>
         <img
